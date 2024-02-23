@@ -1,0 +1,51 @@
+.jogo{
+  width: 500px;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: #5c91e6 !important;
+}
+
+.linha-tabuleiro{
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  display: flex;
+}
+.square {
+  color: #367ff5;
+  background-color: white;
+  border: 1px solid #5c91e6;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 14pt;
+  width: 100px;
+  height: 100px;
+}
+.botaoMovimento{
+  color: #367ff5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 12pt;
+}
+.botaoMovimento:hover{
+  font-weight: bold;
+}
+#atual{
+  font-weight: bold;
+}
+
+.titulo {
+  text-align: center;
+  
+}
+.status{
+  text-align: center;
+}
